@@ -5,3 +5,6 @@ from flask_bcrypt import Bcrypt
 db = SQLAlchemy()
 # hash passwords
 bcrypt = Bcrypt()
+
+from .BlogpostModel import BlogpostModel, BlogpostSchema
+from .UserModel import UserModel, UserSchema
